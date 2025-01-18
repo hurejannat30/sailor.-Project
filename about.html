@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+			<title>SAILOR PROJECT</title>
+			
+	  <style>
+	         .Contact p:hover{
+			    color:#ba261c;
+			 }
+	     .button-sections{
+		             border-bottom:1px solid #cecdcd;
+		 }
+	   .button-sections button{
+	                background:none;
+					color:;
+					font-size:1.3rem;		
+	   }
+	   .bttn-1       {
+	               border-bottom:3px solid var(--first-color);
+	   }
+	   
+	   .counter-sec  {
+	             padding:30px 0;
+				 background-color:#FFFFFF;
+	   }
+	   .counter-sec .line {
+	            height:2px;
+				width:20px;
+				background:F0F2F5#;
+				margin:0 auto;
+	   }
+		.teams {
+				box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+				padding: 20px 20px 0 20px;
+				border-radius: 10px;
+			}
+	  .card img {
+                border-radius: 10px;
+}
+      .line-2 {
+				height: 1px;
+				width: 40px;
+				background: #c1bebef5;
+			}
+	 .icon-sector {
+				display: flex;
+				gap: 10px;
+			}
+		.icon-sector a {
+				padding: 5px 10px;
+				background: #f5f5f5;
+				border-radius: 10px;
+				color: #a2a2a2;
+				transition: 0.5s;
+			}
+		.icon-sector a:hover {
+				background:#ad0909;
+			}
+
+				  </style>
+		
+		  </head>
+		  <body>
+
+<!--------------------nav start-------------------------->
+						  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+			  <div class="container">
+				<a class="navbar-brand fw-bolder" href="#">SAILOR</a>
+				<button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+					<li class="nav-item">
+					  <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+					</li>
+<!-------------dropdown start------------------>
+					<li class="nav-item dropdown">
+					  <a class="nav-link  active text-danger dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						about
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a class="dropdown-item active text-danger" href="about.html">About</a></li>
+						<li><a class="dropdown-item" href="#">Team</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#">Testimonial</a></li>
+						<li><a class="dropdown-item" href="#">Deep dropdown</a></li>
+					  </ul>
+					</li>
+<!-------------dropdown end------------------>
+					<li class="nav-item">
+					  <a class="nav-link" href="service.html">Service</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="pricing.html">Pricing</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="Blog.html">Blog</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				  </ul>
+					<button class="bg-danger text-white rounded m-3" style="padding: 8px 20px; border:0;" type="submit">Get Started</button>
+				</div>
+			  </div>
+			</nav>
+
+<!--------------------nav end------------------------>
+<!--------------------about section start--------------------->
+      <div class="home-service pt-3 pb-3">
+       <div class="row py-5 mt-5" style="background-color:#f2f4f6; color:black;padding:90px;">
+	    <div id="service-sec" class="col-12 col-md-6 px-3 d-flex align-items-center justify-content-start opacity-50">
+		<h3>Services</h3> 
+		</div>
+			   <div class="col-12 col-md-6 px-3 d-flex align-items-center justify-content-end">
+			<p style="color:#bf2206">Home</p><p class="opacity-50">/about</p>
+			   </div>
+			  </div>
+			</div>
+<!--------------------container end------------------------>
+<!---------------floating button start----------------->
+    <button class="floating-btn" style="padding:10px 16px;
+			 background-color:#cc3025;
+			 color:#fff;
+			 position:fixed;
+			 bottom:30px;
+			 right:30px;
+			 border:none;
+			 border-radius:10px;">
+				<i class="bi bi-arrow-up h5"></i>
+	</button>
+<!---------------floating button end----------------->
+<!-------------------content start----------------------->
+        <div class="container">
+		    <div class="row">
+			 <div class="col-12 col-md-4 p-5">
+			    <img src="images/about-portrait.jpg" width="80%" height="100%" alt="about-portrait.jpg"/>
+			 </div>
+			 
+			  <div class="col-12 col-md-8 ">
+				<h3 class="text-secondary">Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero </h3>
+						<div class="tabs-sectors">
+			  <div class="button-sections">
+			     <button id="bttn-1" class="main-btn buttons-1 fw-light" onclick="tabsclickOne()" style="border-bottom:4px solid rgb(217,35,45);color:black">Saepe fuga</button>
+				  <button id="bttn-1" class="main-btn buttons-1 fw-light" onclick="tabsclickTwo()" style="border-bottom:medium;color:black">Voluptates</button>
+				   <button id="bttn-1" class="main-btn buttons-1 fw-light" onclick="tabsclickthree()" style="border-bottom:medium;color:black">Corrupti</button>
+			  </div>
+			</div>
+			<div class="button-s-content">
+			  <div id="pratss-1" style="display:block;">
+                 <h6 class="fw-semibold text-secondary fst-italic mt-2">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</h6>
+                 <div class="mt-3">
+				   <div class="inconic-header d-flex align-items-baseline">
+				   <i class="bi bi-check-lg h6 text-danger"></i>
+				   <h5 class="px-2">Repudiandae rerum velit modi et officia quasi facilis</h5>
+				    </div>
+				   <p class="p-0 m-0 fw-semibold text-secondary">Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et. </p>
+				  
+				 </div>				 
+			  </div>
+			  <div id="pratss-2" style="display:none;">
+                 <div class="mt-3">
+				   <div class="inconic-header d-flex align-items-baseline">
+				   <i class="bi bi-check-lg h6 text-danger"></i>
+				   <h5 class="px-2">Incidunt non veritatis illum ea ut nisi</h5>
+				    </div>
+				   <p class="p-0 m-0 fw-semibold text-secondary">Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+				  
+				 </div>				 
+			  </div>
+			  <div id="pratss-2">
+			      <h6 class="fw-semibold text-secondary fst-italic mt-2">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</h6>
+                 <div class="mt-3">
+				   <div class="inconic-header d-flex align-items-baseline">
+				   <i class="bi bi-check-lg h6 text-danger"></i>
+				   <h5 class="px-2">Omnis ab quia nemo dignissimos rem eum quos.</h5>
+				    </div>
+				   <p class="p-0 m-0 fw-semibold text-secondary">Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum. </p>
+				  
+								</div>				 
+						     </div>
+						   </div>
+						 </div>
+ 
+					</div>
+				</div>
+
+<!-------------------about section end----------------------->
+<!-------------------countdown start----------------------->
+     <div="counter-sec">
+	 <div class="container">
+       <div class="row">
+	       <div class="col-12 col-md-3">
+		      <h2 id="count-1" class="fs-1 fw-bold" >232</h2>
+			   <div class="line mt-3 mb-2"></div>
+			   <p class="text-secondary fst-italic">Client</p>
+		   </div>
+		   <div class="col-12 col-md-3"> <h2 id="count-1" class="fs-1 fw-bold" >521</h2>
+			   <div class="line mt-3 mb-2"></div>
+			   <p class="text-secondary fst-italic">Projects</p></div>
+		   <div class="col-12 col-md-3"> <h2 id="count-1" class="fs-1 fw-bold" >1453</h2>
+			   <div class="line mt-3 mb-2"></div>
+			   <p class="text-secondary fst-italic">Hours of Support</p></div>
+		   <div class="col-12 col-md-3"> <h2 id="count-1" class="fs-1 fw-bold" >32</h2>
+			   <div class="line mt-3 mb-2"></div>
+			   <p class="text-secondary fst-italic">Workers</p></div>
+	   </div>
+	  </div>
+	  </div>
+<!-------------------countdown end----------------------->
+<!-------------------Team start----------------------->
+           <div class="container">
+		   <div class="row">
+		   <div class="col-12 col-md-6">
+			 <div class="team-container">
+				  <div class="teams">
+				  <div class="card">
+				  <div class="row">
+				  <div class="col-md-4">
+					<img src="images/team-1.jpg" class="card-img-top" alt="team-1.jpg">
+				    	</div>
+						<div class="col-md-8">
+						   <div class="card-body">
+						     <h5 class="card-text fw-bold text-secondary">Walter White</h5>
+							 <p class="card-text fw-bold text-secondary">Chief Executive Officer</p>
+							 <div class="line-2"></div>
+							  <p class="card-text fw-bold text-secondary">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+							   <div class="icon-sector">
+							    
+								 <a class="text-decoration-none fs-5" href="#"><i class="bi bi-twitter-x"></i></a>
+								  <a class="text-decoration-none fs-5" href="#"><i class="bi bi-facebook"></i></a>
+								   <a class="text-decoration-none fs-5" href="#"><i class="bi bi-instagram"></i></a>
+								    <a class="text-decoration-none fs-5" href="#"><i class="bi bi-linkedin"></i></a>
+							   </div>
+						   </div>
+						</div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+		
+<div class="col-12 col-md-6">
+			 <div class="team-container">
+				  <div class="teams">
+				  <div class="card">
+				  <div class="row">
+				  <div class="col-md-4">
+					<img src="images/team-2.jpg" class="card-img-top" alt="team-1.jpg">
+				    	</div>
+						<div class="col-md-8">
+						   <div class="card-body">
+						     <h5 class="card-text fw-bold text-secondary">Walter White</h5>
+							 <p class="card-text fw-bold text-secondary">Chief Executive Officer</p>
+							 <div class="line-2"></div>
+							  <p class="card-text fw-bold text-secondary">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+							   <div class="icon-sector">
+							    
+								 <a class="text-decoration-none fs-5" href="#"><i class="bi bi-twitter-x"></i></a>
+								  <a class="text-decoration-none fs-5" href="#"><i class="bi bi-facebook"></i></a>
+								   <a class="text-decoration-none fs-5" href="#"><i class="bi bi-instagram"></i></a>
+								    <a class="text-decoration-none fs-5" href="#"><i class="bi bi-linkedin"></i></a>
+							   </div>
+						   </div>
+						</div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	     
+		 </div>
+		 
+		  <div class="row">
+		   <div class="col-12 col-md-6">
+			 <div class="team-container">
+				  <div class="teams">
+				  <div class="card">
+				  <div class="row">
+				  <div class="col-md-4">
+					<img src="images/team-3.jpg" class="card-img-top" alt="team-1.jpg">
+				    	</div>
+						<div class="col-md-8">
+						   <div class="card-body">
+						     <h5 class="card-text fw-bold text-secondary">Walter White</h5>
+							 <p class="card-text fw-bold text-secondary">Chief Executive Officer</p>
+							 <div class="line-2"></div>
+							  <p class="card-text fw-bold text-secondary">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+							   <div class="icon-sector">
+							    
+								 <a class="text-decoration-none fs-5" href="#"><i class="bi bi-twitter-x"></i></a>
+								  <a class="text-decoration-none fs-5" href="#"><i class="bi bi-facebook"></i></a>
+								   <a class="text-decoration-none fs-5" href="#"><i class="bi bi-instagram"></i></a>
+								    <a class="text-decoration-none fs-5" href="#"><i class="bi bi-linkedin"></i></a>
+							   </div>
+						   </div>
+						</div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+		
+<div class="col-12 col-md-6">
+			 <div class="team-container">
+				  <div class="teams">
+				  <div class="card">
+				  <div class="row">
+				  <div class="col-md-4">
+					<img src="images/team-4.jpg" class="card-img-top" alt="team-1.jpg">
+				    	</div>
+						<div class="col-md-8">
+						   <div class="card-body">
+						     <h5 class="card-text fw-bold text-secondary">Walter White</h5>
+							 <p class="card-text fw-bold text-secondary">Chief Executive Officer</p>
+							 <div class="line-2"></div>
+							  <p class="card-text fw-bold text-secondary">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+							   <div class="icon-sector">
+							    
+								 <a class="text-decoration-none fs-5" href="#"><i class="bi bi-twitter-x"></i></a>
+								  <a class="text-decoration-none fs-5" href="#"><i class="bi bi-facebook"></i></a>
+								   <a class="text-decoration-none fs-5" href="#"><i class="bi bi-instagram"></i></a>
+								    <a class="text-decoration-none fs-5" href="#"><i class="bi bi-linkedin"></i></a>
+							   </div>
+						   </div>
+						</div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	     
+		 </div>
+		   </div>
+<!-------------------Team end----------------------->
+<!-------------------progress start-------------------->
+			<div class="container progress-section pb-5">
+			  <div class="about-section">
+				 <div class="small-text pt-5 text-secondary">Skills</div>
+				 <h3 class="large-text fw-bold">check our skills</h3>
+			  </div>
+			<!-------------------progress 1 start------------->
+			  
+			  <div class="row">
+				<div class="col-12 col-md-6">
+				   <div class="skill">
+				   <div class="skill-content d-flex justify-content-between fs-6 pt-3 pb-3">
+					  <p class="m-0 p-0">HTML</p>
+					  <p class="m-0 p-0">100%</p>
+					  </div>
+								<div class="progress rounded-0" style=" height:25px;"role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+							   <div class="progress-bar bg-danger" style="width: 100%"></div>
+							</div>
+						</div>
+				   </div>
+				   
+				   <div class="col-12 col-md-6">
+				   <div class="skill">
+				   <div class="skill-content d-flex justify-content-between fs-6  pt-3 pb-3">
+					  <p class="m-0 p-0">PHP</p>
+					  <p class="m-0 p-0">80%</p>
+					  </div>
+								<div class="progress rounded-0"  style=" height:25px;" role="progressbar" aria-label="Danger example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80">
+							   <div class="progress-bar bg-danger" style="width: 80%"></div>
+							</div>
+						</div>
+				   </div>
+				   
+				</div>
+<!-------------------progress 1 end------------->
+<!-------------------progress 2 start------------->
+
+		<div class="row">
+			<div class="col-12 col-md-6">
+			   <div class="skill">
+			   <div class="skill-content d-flex justify-content-between fs-6  pt-3 pb-3">
+				  <p class="m-0 p-0">CSS</p>
+				  <p class="m-0 p-0">90%</p>
+				  </div>
+							<div class="progress rounded-0"  style=" height:25px;" role="progressbar" aria-label="Danger example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">
+						   <div class="progress-bar bg-danger" style="width: 90%"></div>
+						</div>
+					</div>
+			   </div>
+			   
+			   <div class="col-12 col-md-6">
+			   <div class="skill">
+			   <div class="skill-content d-flex justify-content-between fs-6 pt-3 pb-3">
+				  <p class="m-0 p-0">Wordpress</p>
+				  <p class="m-0 p-0">90%</p>
+				  </div>
+							<div class="progress rounded-0" style=" height:25px;" role="progressbar" aria-label="Danger example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">
+						   <div class="progress-bar bg-danger" style="width: 90%"></div>
+						</div>
+					</div>
+			   </div>
+			   
+			</div>
+<!-------------------progress 2 end------------->
+<!-------------------progress 3 start------------->
+		<div class="row">
+			<div class="col-12 col-md-6">
+			   <div class="skill">
+			   <div class="skill-content d-flex justify-content-between fs-6 pt-3 pb-3">
+				  <p class="m-0 p-0">Javascript</p>
+				  <p class="m-0 p-0">75%</p>
+				  </div>
+							<div class="progress rounded-0" style=" height:25px;" role="progressbar" aria-label="Danger example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">
+						   <div class="progress-bar bg-danger" style="width: 75%"></div>
+						</div>
+					</div>
+			   </div>
+			   
+			   <div class="col-12 col-md-6">
+			   <div class="skill">
+			   <div class="skill-content d-flex justify-content-between fs-6 pt-3 pb-3">
+				  <p class="m-0 p-0">photoshop</p>
+				  <p class="m-0 p-0">55%</p>
+				  </div>
+							<div class="progress rounded-0" style=" height:25px;" role="progressbar" aria-label="Danger example" aria-valuenow="55" aria-valuemin="0" aria-valuemax="55">
+						   <div class="progress-bar bg-danger" style="width: 55%"></div>
+						</div>
+					</div>
+			   </div>
+			   
+			</div>
+<!-------------------progress 3 end------------->
+
+  </div>
+</div>
+<
+
+<!-------------------progress end----------------------->
+
+<!-------------------footer start----------------------->
+      <footer class="bg-dark text-light">
+	  <div class="row" style="padding: 50px 60px;">
+	      <div class="col-12 col-md-3">
+		    <h3  class="fw-bolder">Sailor</h3>
+			<div>
+			  <p>A108 Adam Street</p>
+			  <p>New York, NY 535022</p> 
+			</div>
+			<div>
+			  <p>Phone: +1 5589 55488 55</p>
+			  <p>Email: info@example.com</p>
+			</div>
+			<div>
+			  <ul class="d-flex gap-3 mt-2 list-unstyled">
+			     <i class="bi bi-twitter-x h5"></i>
+			     <i class="bi bi-facebook h5"></i>
+				 <i class="bi bi-instagram h5"></i>
+				 <i class="bi bi-linkedin h5"></i>
+			  </ul>
+			</div>
+		   </div>
+		   
+		   <div class="col-12 col-md-3">
+		    <h5  class="fw-bolder">Useful Links</h5>
+			<div class="Contact">
+			  <p>Home</p>
+			  <p>About Us</p> 
+			  <p>services</p>
+			  <p>Trems of services</p>
+			  <p>privacy policy</p>
+		   </div>
+		   </div>
+		   <div class="col-4 col-md-3">
+		    <h5  class="fw-bolder">Our Services</h5>
+			<div  class="Contact">
+			  <p>Web Design</p>
+			  <p>Web Development</p> 
+			  <p>Product Management</p>
+			  <p>Marketing</p>
+			  <p>Graphic Design</p>
+			</div>
+		 
+	  </div>
+	  
+	   <div class="col-12 col-md-3">
+		    <h5 class="fw-bolder">Our Newsletter</h5>
+			<div>
+			  <p style="padding-bottom:20px;">Subscribe to our newsletter and receive the latest news about our products and services!</p>
+			</div>
+			
+			
+					 <div class="input-group mb-3">
+		  <input type="text" class="form-control bg-dark rounded-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+		     		  <span class="input-group-text  bg-danger rounded-0 text-light" id="basic-addon2">Subscribe</span>
+		  </div>
+
+            
+
+			 </div>  
+		  </div>
+			<div style="text-align:center;">
+			   <p>&copy Copyright Sailor All Rights Reserved</p>
+			</div>
+			<div  class="pb-3">
+			  <p style="text-align:center;">Design by <a style="color:#cc3025" href="#">Ehasun UI islam</a></p>
+			</div>
+
+    </footer>
+<!-------------------footer end----------------------->
+		   
+		   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		  </body>
+		</html>
+		  

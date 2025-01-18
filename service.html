@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+			<title>SAILOR PROJECT</title>
+			
+	  <style>
+        .card:hover 
+{
+		border-color:#960e1b;
+	}
+
+		.card h5:hover{
+			color:#960e1b;
+		}
+
+       .card:hover i{
+			color:#960e1b;
+		}
+		 .Contact p:hover{
+			    color:#960e1b
+			 }
+		 .about-section{
+				text-align: left;
+				border-radius: 8px;
+				margin: 40px 0;
+			}
+		.small text{
+				font: 14px;
+				color: #960e1b;
+				letter-spacing: 1;
+				position: relative;
+			}
+	    .large text{
+				font-size: 24px;
+				color: #4a4a4a;
+				font-weight: bold;
+				margin-top: 5px;
+			}
+       .small text::after{
+				content: '';
+				position: absolute;
+				width: 100px;
+				height: 1px;
+				background: #960e1b;
+				margin-top: 13px;
+				margin-left: 10px;
+			}
+
+       .featured-sec #btn-1k{
+				font-weight: 600;
+			}
+	   .featured-sec .button{
+                cursor: pointer;
+}
+		.featured-sec h4{
+				color: var(--sec-color);
+				font-size: 1.6rem;
+				font-weight: 600;
+			}
+		#part-2,
+		#part-3,
+		#part-4,
+		#part-5{
+			display: none;
+}
+
+		#part-1{
+			display: flex;
+			flex-direction: column;
+		}
+
+	
+		</style>
+		
+		  </head>
+		  <body>
+
+<!--------------------nav start-------------------------->
+						  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+			  <div class="container">
+				<a class="navbar-brand fw-bolder" href="#">SAILOR</a>
+				<button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+					<li class="nav-item">
+					  <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+					</li>
+<!-------------dropdown start------------------>
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						about
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">About</a></li>
+						<li><a class="dropdown-item" href="#">Team</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#">Testimonial</a></li>
+						<li><a class="dropdown-item" href="#">Deep dropdown</a></li>
+					  </ul>
+					</li>
+<!-------------dropdown end------------------>
+					<li class="nav-item">
+					  <a class="nav-link active text-danger" href="service.html">Service</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="pricing.html">Pricing</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="Blog.html">Blog</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				  </ul>
+					<button class="bg-danger text-white rounded m-3" style="padding: 8px 20px; border:0;" type="submit">Get Started</button>
+				</div>
+			  </div>
+			</nav>
+
+<!--------------------nav end------------------------>
+<!--------------------container start------------------------>
+      <div class="home-service pt-3 pb-3">
+       <div class="row py-5 mt-5" style="background-color:#f2f4f6; color:black;padding:90px;">
+	    <div id="service-sec" class="col-12 col-md-6 px-3 d-flex align-items-center justify-content-start opacity-50">
+		<h3>Services</h3> 
+		</div>
+			   <div class="col-12 col-md-6 px-3 d-flex align-items-center justify-content-end">
+			<p style="color:#bf2206">Home</p><p class="opacity-50">/services</p>
+			   </div>
+			  </div>
+			</div>
+<!--------------------container end------------------------>
+<!---------------floating button start----------------->
+    <button class="floating-btn" style="padding:10px 16px;
+			 background-color:#cc3025;
+			 color:#fff;
+			 position:fixed;
+			 bottom:30px;
+			 right:30px;
+			 border:none;
+			 border-radius:10px;">
+				<i class="bi bi-arrow-up h5"></i>
+	</button>
+<!---------------floating button end----------------->
+
+<!-------------------card start------------------------>
+           <div class="container">
+		   <div class="row" style="padding:10px 0px;">
+			  <div class="col-sm-6 mb-3 mb-sm-0">
+				<div class="card rounded-0">
+				  <div class="card-body m-3">
+					<h5 class="card-title m-0 p-0 pt-2"><i class="bi bi-bag-dash h1"></i>
+					Lorm Ipsum</h5>
+					<p class="card-text p-0 m-0 pt-2 pb-4">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-sm-6">
+				<div class="card rounded-0">
+				  <div class="card-body m-3">
+					<h5 class="card-title m-0 p-0 pt-2"><i class="bi bi-bar-chart-line h1"></i>Sed ut perspiciatis</h5>
+					<p class="card-text p-0 m-0 pt-2 pb-4">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+			
+			<div class="row" style="padding:10px 0px;">
+			  <div class="col-sm-6 mb-3 mb-sm-0">
+				<div class="card rounded-0">
+				  <div class="card-body m-3">
+					<h5 class="card-title m-0 p-0 pt-2"><i class="bi bi-brightness-high h1"></i>Lorm Ipsum</h5>
+					<p class="card-text p-0 m-0 pt-2 pb-4">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. </p>
+					
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-sm-6">
+				<div class="card rounded-0">
+				  <div class="card-body m-3">
+					<h5 class="card-title m-0 p-0 pt-2"><i class="bi bi-amazon h1"></i>Sed ut perspiciatis</h5>
+					<p class="card-text p-0 m-0 pt-2 pb-4">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="row" style="padding:10px 0px;">
+			  <div class="col-sm-6 mb-3 mb-sm-0">
+				<div class="card rounded-0">
+				  <div class="card-body m-3">
+					<h5 class="card-title m-0 p-0 pt-2"><i class="bi bi-person-wheelchair h1"></i>Lorm Ipsum</h5>
+					<p class="card-text p-0 m-0 pt-2 pb-4">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. </p>
+					
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-sm-6">
+				<div class="card rounded-0">
+				  <div class="card-body m-3">
+					<h5 class="card-title m-0 p-0 pt-2"><i class="bi bi-archive h1" style="color:black; font-weight:bold"></i>Sed ut perspiciatis</h5>
+					<p class="card-text p-0 m-0 pt-2 pb-4">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+				
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+		   </div>
+<!-------------------card end------------------------>
+<!-------------------Feature start------------------------>
+        <div id="feature" class="container featured-sec">
+		    <div class="about-section">
+			  <h5 class="small text">Features</h5>
+			  <h2 class="large text fw-bold">Check Our Features</h2>
+			  <div class="row">
+			     <div class="col-12 col-md-3">
+				   <p id="" class="button text-danger">Modi sit est</p>
+				    <p id="btn-1k" class="button">Unde praesentium sed</p>
+					 <p id="btn-1k" class="button">Pariatur explicabo vel</p>
+					  <p id="btn-1k" class="button">Nostrum qui quasi</p>
+					    <p id="btn-1k" class="button">Nostrum qui quasi</p>
+				 </div>
+				 <div class="col-12 col-md-6">
+				     <h4>Architecto ut aperiam autem id</h4>
+                     <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka </p>
+					 <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero </p>
+				 </div>
+				 <div class="col-12 col-md-3">
+				    <img src="images/tab-5.png" width="100%" style="margin-left:30px;"alt="tab-5.png"/>
+				 </div>
+			  </div>
+			</div>
+		</div>
+<!-------------------Feature end------------------------>
+
+<!-------------------footer start----------------------->
+      <footer class="bg-dark text-light">
+	  <div class="row" style="padding: 50px 60px;">
+	      <div class="col-12 col-md-3">
+		    <h3  class="fw-bolder">Sailor</h3>
+			<div>
+			  <p>A108 Adam Street</p>
+			  <p>New York, NY 535022</p> 
+			</div>
+			<div>
+			  <p>Phone: +1 5589 55488 55</p>
+			  <p>Email: info@example.com</p>
+			</div>
+			<div>
+			  <ul class="d-flex gap-3 mt-2 list-unstyled">
+			     <i class="bi bi-twitter-x h5"></i>
+			     <i class="bi bi-facebook h5"></i>
+				 <i class="bi bi-instagram h5"></i>
+				 <i class="bi bi-linkedin h5"></i>
+			  </ul>
+			</div>
+		   </div>
+		   
+		   <div class="col-12 col-md-3">
+		    <h5  class="fw-bolder">Useful Links</h5>
+			<div  class="Contact">
+			  <p>Home</p>
+			  <p>About Us</p> 
+			  <p>services</p>
+			  <p>Trems of services</p>
+			  <p>privacy policy</p>
+		   </div  class="Contact">
+		   </div>
+		   <div class="col-4 col-md-3">
+		    <h5  class="fw-bolder">Our Services</h5>
+			<div class="Contact">
+			  <p>Web Design</p>
+			  <p>Web Development</p> 
+			  <p>Product Management</p>
+			  <p>Marketing</p>
+			  <p>Graphic Design</p>
+			</div>
+		 
+	  </div>
+	  
+	   <div class="col-12 col-md-3">
+		    <h5 class="fw-bolder">Our Newsletter</h5>
+			<div>
+			  <p style="padding-bottom:20px;">Subscribe to our newsletter and receive the latest news about our products and services!</p>
+			</div>
+			
+			
+			 <div class="input-group mb-3">
+		  <input type="text" class="form-control bg-dark rounded-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+		  <span class="input-group-text  bg-danger rounded-0 text-light" id="basic-addon2">Subscribe</span>
+			 </div>  
+			 
+			 
+		  </div>
+			<div style="text-align:center;">
+			   <p>&copy Copyright Sailor All Rights Reserved</p>
+			</div>
+			<div  class="pb-3">
+			  <p style="text-align:center;">Design by <a style="color:#cc3025" href="#">Ehasun UI islam</a></p>
+			</div>
+
+    </footer>
+<!-------------------footer end------------------->
+		   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		  </body>
+		</html>
+		  
